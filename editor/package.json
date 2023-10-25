@@ -1,0 +1,15 @@
+{
+  "name": "editor",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vike": "^0.4.144",
+    "vite": "^4.5.0"
+  }
+}

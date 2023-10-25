@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  },
+  "exports": {
+    "/router": "./router.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sirv": "^2.0.3"
+  },
+  "devDependencies": {
+    "vike": "^0.4.144",
+    "vite": "^4.5.0"
+  }
+}

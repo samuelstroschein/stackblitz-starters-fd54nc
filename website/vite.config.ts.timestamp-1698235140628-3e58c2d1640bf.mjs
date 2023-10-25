@@ -1,0 +1,16 @@
+// ../website/vite.config.ts
+import { defineConfig } from "file:///home/projects/stackblitz-starters-fd54nc/node_modules/vite/dist/node/index.js";
+import solid from "file:///home/projects/stackblitz-starters-fd54nc/node_modules/vite-plugin-solid/dist/esm/index.mjs";
+import { ssr as vikePlugin } from "file:///home/projects/stackblitz-starters-fd54nc/node_modules/vike/dist/esm/node/plugin/index.js";
+var vite_config_default = defineConfig({
+  plugins: [solid({ ssr: true }), vikePlugin()],
+  build: {
+    // target is es2022 to support top level await
+    // https://caniuse.com/?search=top%20level%20await
+    target: "es2022"
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi4vd2Vic2l0ZS92aXRlLmNvbmZpZy50cyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiY29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2Rpcm5hbWUgPSBcIi9ob21lL3Byb2plY3RzL3N0YWNrYmxpdHotc3RhcnRlcnMtZmQ1NG5jL3dlYnNpdGVcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIi9ob21lL3Byb2plY3RzL3N0YWNrYmxpdHotc3RhcnRlcnMtZmQ1NG5jL3dlYnNpdGUvdml0ZS5jb25maWcudHNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL2hvbWUvcHJvamVjdHMvc3RhY2tibGl0ei1zdGFydGVycy1mZDU0bmMvd2Vic2l0ZS92aXRlLmNvbmZpZy50c1wiO2ltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gJ3ZpdGUnO1xuaW1wb3J0IHNvbGlkIGZyb20gJ3ZpdGUtcGx1Z2luLXNvbGlkJztcbmltcG9ydCB7IHNzciBhcyB2aWtlUGx1Z2luIH0gZnJvbSAndmlrZS9wbHVnaW4nO1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICBwbHVnaW5zOiBbc29saWQoeyBzc3I6IHRydWUgfSksIHZpa2VQbHVnaW4oKV0sXG4gIGJ1aWxkOiB7XG4gICAgLy8gdGFyZ2V0IGlzIGVzMjAyMiB0byBzdXBwb3J0IHRvcCBsZXZlbCBhd2FpdFxuICAgIC8vIGh0dHBzOi8vY2FuaXVzZS5jb20vP3NlYXJjaD10b3AlMjBsZXZlbCUyMGF3YWl0XG4gICAgdGFyZ2V0OiAnZXMyMDIyJyxcbiAgfSxcbn0pO1xuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUFxVSxTQUFTLG9CQUFvQjtBQUNsVyxPQUFPLFdBQVc7QUFDbEIsU0FBUyxPQUFPLGtCQUFrQjtBQUVsQyxJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsTUFBTSxFQUFFLEtBQUssS0FBSyxDQUFDLEdBQUcsV0FBVyxDQUFDO0FBQUEsRUFDNUMsT0FBTztBQUFBO0FBQUE7QUFBQSxJQUdMLFFBQVE7QUFBQSxFQUNWO0FBQ0YsQ0FBQzsiLAogICJuYW1lcyI6IFtdCn0K

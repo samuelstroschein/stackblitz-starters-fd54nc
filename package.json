@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "workspaces": ["/editor", "/website", "/server"],
+  "scripts": {
+    "build": "npm run build --ws --if-present",
+    "start": "npm run start -w server"
+  }
+}
