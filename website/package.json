@@ -3,7 +3,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "start": "tsx server.ts"
   },
   "exports": {
     "/router": "./router.js"

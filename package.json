@@ -1,8 +1,16 @@
 {
   "type": "module",
-  "workspaces": ["/editor", "/website", "/server"],
+  "workspaces": [
+    "/editor",
+    "/website",
+    "/server"
+  ],
   "scripts": {
     "build": "npm run build --ws --if-present",
-    "start": "npm run start -w server"
+    "start": "npm run start --ws --if-present"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "tsx": "^3.14.0"
   }
 }
